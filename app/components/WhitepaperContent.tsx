@@ -5,7 +5,7 @@ export default function WhitepaperContent() {
     <div className="prose prose-invert prose-purple max-w-none">
       <div className="flex justify-center mb-6">
         <a 
-          href="https://drive.google.com/file/d/1pGX_eprnbd34Lz1TtySMn3WalddQZVcM/view?usp=sharing" 
+          href="https://github.com/opreturncomment/Web/blob/main/Yellow%20Paper_%20ORC20%20and%20ORC721%20Protocols%20for%20Bitcoin%20Assets%20.docx " 
           target="_blank" 
           rel="noopener noreferrer"
           className="button button-primary flex items-center gap-2 px-4 py-2 rounded-md bg-purple-600 hover:bg-purple-500 transition-colors"
