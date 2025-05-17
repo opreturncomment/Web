@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 255, 255, 255;
+  --background-start-rgb: 13, 6, 33;
+  --background-end-rgb: 30, 15, 60;
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      rgb(var(--background-start-rgb)),
+      rgb(var(--background-end-rgb))
+    )
+    fixed;
+  min-height: 100vh;
+}
+
+.bg-gradient-purple {
+  background: linear-gradient(125deg, #2a1259 0%, #3b187a 100%);
+}
+
+.button {
+  border-radius: 9999px;
+  padding: 0.5rem 1.5rem;
+  font-weight: 500;
+  transition: all 0.2s;
+}
+.button:hover {
+  opacity: 0.8;
+}
+
+.button-primary {
+  background-color: white;
+  color: #4c1d95;
+}
+
+.button-secondary {
+  background-color: rgba(255, 255, 255, 0.1);
+  color: white;
+  backdrop-filter: blur(4px);
+} 
